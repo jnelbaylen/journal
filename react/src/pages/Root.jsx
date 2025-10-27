@@ -1,11 +1,10 @@
+import MyButton from "../components/Button/MyButton";
 
-function Root() {
-
+export default function Root() {
   return (
     <>
-      <h1>Loading.....</h1>
+      <h1>Welcome to app</h1>
+      <MyButton />
     </>
   )
 }
-
-export default Root
