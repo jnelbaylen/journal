@@ -1,6 +1,7 @@
-import MyButton from "../components/Button/MyButton";
+import MyButton from "@components/Button/MyButton";
+import MyProfile from "@components/Profile/MyProfile";
+
 import AboutPage from "./About/AboutPage";
-import MyProfile from "../components/Profile/MyProfile";
 import ShoppingList from "./Shop/ShoppingList";
 
 function Greeting({ name }) {
