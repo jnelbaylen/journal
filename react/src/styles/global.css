@@ -1,3 +1,42 @@
 .avatar {
   border-radius: 50%;
 }
+
+.btn-one {
+  background-color: #0c0e10; 
+  color: white; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-one:hover {
+  background-color:  #90969b;
+}
+
+.btn-one:active {
+  transform: translateY(1px);
+}
+
+.btn-two {
+  background-color: #0c0e10; 
+  color: white; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 10px;
+}
+
+.btn-two:hover {
+  background-color:  #90969b;
+}
+
+.btn-two:active {
+  transform: translateY(1px);
+}
