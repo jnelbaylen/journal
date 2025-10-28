@@ -1,6 +1,7 @@
 import MyButton from "../components/Button/MyButton";
 import AboutPage from "./About/AboutPage";
 import MyProfile from "../components/Profile/MyProfile";
+import ShoppingList from "./Shop/ShoppingList";
 
 function Greeting({ name }) {
   return <h1>Hello, {name}</h1>
@@ -14,6 +15,7 @@ export default function Root() {
       <AboutPage />
       <Greeting name="World" />
       <MyProfile />
+      <ShoppingList />
     </>
   )
 }
